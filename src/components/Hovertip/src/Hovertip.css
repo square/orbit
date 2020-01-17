@@ -1,0 +1,45 @@
+@import "@square/orbit/styles/vars.css";
+
+:root {
+	--hovertip-max-width: 280px;
+	--hovertip-line-height: var(--line-height-base);
+}
+
+.Hovertip {
+	max-width: var(--hovertip-max-width);
+	padding: var(--space-x2);
+	border-radius: var(--border-radius-base);
+	background-color: var(--color-gray-60);
+	box-shadow: var(--box-shadow-interactive);
+	z-index: 10000;
+
+	&[aria-hidden="true"] {
+		transition:
+			opacity var(--transition-time),
+			visibility var(--transition-time);
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&[aria-hidden="false"] {
+		transition: opacity var(--transition-time);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.HovertipInner {
+	margin: calc(0.5 * (1 - var(--hovertip-line-height)))em 0;
+
+	/* Only non-vue component confusing the build. Inline for now... -Hiroki */
+
+	/* composes: font-base from "@square/orbit/styles/util.css"; */
+
+	color: var(--color-white);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: var(--hovertip-line-height);
+	text-rendering: optimizeLegibility;
+}

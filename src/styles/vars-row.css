@@ -1,0 +1,10 @@
+@import "@square/orbit/styles/vars.css";
+
+:root {
+	/* Used by Table & Drag
+	-------------------------- */
+	--row-padding-vertical: var(--space-x2);
+	--row-padding-horizontal: var(--space-x2);
+	--row-padding-first: var(--space-x2);
+	--row-padding-last: var(--space-x2);
+}

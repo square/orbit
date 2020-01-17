@@ -1,0 +1,64 @@
+/*
+CSS Utility Classes
+---
+These classes are used with `compose` to extend existing selectors.
+Learn more about compose: https://github.com/css-modules/css-modules#composition
+
+.MyComponent {
+	composes: font-base from "@square/orbit/styles/util.css";
+	display: block;
+	margin: 0;
+	...
+}
+*/
+
+@import "@square/orbit/styles/vars.css";
+
+.font-base {
+	color: var(--font-color-base);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: var(--line-height-base);
+	text-rendering: optimizeLegibility;
+}
+
+.overflow-ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Corrects overflow bug: https://bugzilla.mozilla.org/show_bug.cgi?id=748518 */
+.pad-overflow-bottom {
+	padding: var(--space-x4) var(--space-x4) 0;
+
+	&::after {
+		display: block;
+		height: var(--space-x4);
+		content: "";
+	}
+}
+
+.button-reset {
+	margin: 0; /* Remove vertical margin in Safari */
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none; /* Removes underlines on <a> buttons */
+	white-space: nowrap;
+	cursor: pointer;
+	box-sizing: border-box;
+	appearance: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.spin-animation {
+	animation: rotating 0.6s linear infinite;
+}
+
+@keyframes rotating {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}

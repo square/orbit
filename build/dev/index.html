@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orbit Doc Dev</title>
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript" src="https://unpkg.com/systemjs@3.1.6/dist/system.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/systemjs@3.1.6/dist/extras/amd.min.js"></script>
+<script type="text/javascript">
+((imports) => {
+	const depIdx = {
+		axios: '/dist/axios.min.js',
+	};
+
+	(new URLSearchParams(window.location.search)).forEach((version, package) => {
+		imports[package] = `https://unpkg.com/${package}@${version}` + (depIdx[package] || '');
+	});
+
+	const tpl = document.createElement('template');
+	tpl.innerHTML = `\<script type="systemjs-importmap"\>${JSON.stringify({imports})}\<\/script\>`;
+	document.head.appendChild(tpl.content);
+})({});
+
+System.import('/dev-script.js');
+</script>
+</body>
+</html>

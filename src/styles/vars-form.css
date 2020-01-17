@@ -1,0 +1,49 @@
+@import "@square/orbit/styles/vars.css";
+
+:root {
+	/* Form
+	-------------------------- */
+	--form-color: var(--font-color-base);
+	--form-bg-color: var(--color-white);
+	--form-border-color: var(--color-gray-40);
+	--form-border: 1px solid var(--form-border-color);
+	--form-small-border: 1px solid var(--form-border-color);
+	--form-border-radius: var(--border-radius-base);
+	--form-disabled-color: var(--disabled-color);
+	--form-disabled-bg-color: var(--disabled-bg-color);
+	--form-disabled-border-color: var(--disabled-border-color);
+	--form-disabled-placeholder-color: var(--color-gray-40);
+	--form-prefix-suffix-color: var(--color-gray-40);
+	--form-label-color: var(--color-gray-60);
+	--form-label-font-weight: var(--font-weight-medium);
+	--form-label-line-height: 1.4;
+	--form-font-size: var(--font-size-base);
+	--form-height: 40px;
+	--form-small-height: 32px;
+	--form-small-font-size: 14px;
+	--form-small-padding: 8px;
+	--form-hover-border-color: var(--color-gray-50);
+	--form-hover-color: var(--color-gray-60);
+	--form-hover-box-shadow: 0 4px 8px color(var(--color-gray-20) a(0.5));
+	--form-sublabel-color: var(--color-gray-50);
+	--form-control-size: calc(var(--form-height) / 2);
+	--form-control-bg-color: var(--form-bg-color);
+	--form-control-border-color: var(--form-border-color);
+	--form-control-label-gutter: var(--space-x2);
+
+	/* Size of radios and checkboxes */
+	--form-control-dimension: 18px;
+	--form-control-icon-color: var(--form-border-color);
+	--form-control-line-height: 24px;
+	--form-padding-vertical: 8px;
+	--form-padding-horizontal: 16px;
+	--form-placeholder-color: var(--color-gray-40);
+}
+
+/*
+Error vs Invalid
+We are using the term 'error', rather than 'invalid' to indicate a form control has an issue.
+I've left the class names as `.invalid` temporarily. We should update to `.error` in time.
+*/
+@custom-selector :--form-invalid-selector
+	.invalid, .invalid:focus, .invalid:hover, .invalid:active;

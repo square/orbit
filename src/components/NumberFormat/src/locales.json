@@ -1,0 +1,1953 @@
+{
+  "da-DK": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JP¥"
+    },
+    "AUD": {
+      "suffix": "AU$"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZ$"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HK$"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "kr."
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MX$"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "NT$"
+    }
+  },
+  "de-DE": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "¥"
+    },
+    "AUD": {
+      "suffix": "AU$"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZ$"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HK$"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MX$"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "NT$"
+    }
+  },
+  "en-AU": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "prefix": "USD"
+    },
+    "EUR": {
+      "prefix": "EUR"
+    },
+    "GBP": {
+      "prefix": "GBP"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JPY"
+    },
+    "AUD": {
+      "symbolDelimiter": "",
+      "prefix": "$"
+    },
+    "CAD": {
+      "prefix": "CAD"
+    },
+    "NZD": {
+      "prefix": "NZD"
+    },
+    "CHF": {
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HKD"
+    },
+    "SGD": {
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "ILS"
+    },
+    "MXN": {
+      "prefix": "MXN"
+    },
+    "MYR": {
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "BRL"
+    },
+    "PHP": {
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "prefix": "RUB"
+    },
+    "THB": {
+      "prefix": "THB"
+    },
+    "TRY": {
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "TWD"
+    }
+  },
+  "en-CA": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JP¥"
+    },
+    "AUD": {
+      "prefix": "A$"
+    },
+    "CAD": {
+      "prefix": "$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "en-GB": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JP¥"
+    },
+    "AUD": {
+      "prefix": "A$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "en-US": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "¥"
+    },
+    "AUD": {
+      "prefix": "A$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "es-ES": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "US$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "GBP"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JPY"
+    },
+    "AUD": {
+      "suffix": "AUD"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZD"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "ILS"
+    },
+    "MXN": {
+      "suffix": "MXN"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "BRL"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "fi-FI": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "¥"
+    },
+    "AUD": {
+      "suffix": "AUD"
+    },
+    "CAD": {
+      "suffix": "CAD"
+    },
+    "NZD": {
+      "suffix": "NZD"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "ILS"
+    },
+    "MXN": {
+      "suffix": "MXN"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "BRL"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "THB"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "fr-FR": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "$US"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£GB"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JPY"
+    },
+    "AUD": {
+      "suffix": "$AU"
+    },
+    "CAD": {
+      "suffix": "$CA"
+    },
+    "NZD": {
+      "suffix": "$NZ"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "$SG"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "$MX"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "THB"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "it-IT": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "USD"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JPY"
+    },
+    "AUD": {
+      "suffix": "A$"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZ$"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MXN"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "BRL"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "ja-JP": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "￥"
+    },
+    "AUD": {
+      "prefix": "A$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "ko-KR": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JP¥"
+    },
+    "AUD": {
+      "prefix": "AU$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "nl-NL": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JP¥"
+    },
+    "AUD": {
+      "prefix": "AU$"
+    },
+    "CAD": {
+      "prefix": "C$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "prefix": "RUB"
+    },
+    "THB": {
+      "prefix": "฿"
+    },
+    "TRY": {
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "nb-NO": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "prefix": "USD"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JPY"
+    },
+    "AUD": {
+      "prefix": "AUD"
+    },
+    "CAD": {
+      "prefix": "CAD"
+    },
+    "NZD": {
+      "prefix": "NZD"
+    },
+    "CHF": {
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HKD"
+    },
+    "SGD": {
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "prefix": "kr"
+    },
+    "HUF": {
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "ILS"
+    },
+    "MXN": {
+      "prefix": "MXN"
+    },
+    "MYR": {
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "BRL"
+    },
+    "PHP": {
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "prefix": "RUB"
+    },
+    "THB": {
+      "prefix": "THB"
+    },
+    "TRY": {
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "TWD"
+    }
+  },
+  "pl-PL": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "USD"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "GBP"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JPY"
+    },
+    "AUD": {
+      "suffix": "AUD"
+    },
+    "CAD": {
+      "suffix": "CAD"
+    },
+    "NZD": {
+      "suffix": "NZD"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "zł"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "ILS"
+    },
+    "MXN": {
+      "suffix": "MXN"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "THB"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "pt-PT": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "US$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JP¥"
+    },
+    "AUD": {
+      "suffix": "AU$"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZ$"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HK$"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MX$"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "NT$"
+    }
+  },
+  "ru-RU": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "¥"
+    },
+    "AUD": {
+      "suffix": "A$"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZ$"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HK$"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "SEK"
+    },
+    "DKK": {
+      "suffix": "DKK"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "NOK"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MX$"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "R$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "₽"
+    },
+    "THB": {
+      "suffix": "฿"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "NT$"
+    }
+  },
+  "sv-SE": {
+    "number": {
+      "delimiter": " ",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "right",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": " "
+    },
+    "USD": {
+      "suffix": "US$"
+    },
+    "EUR": {
+      "suffix": "€"
+    },
+    "GBP": {
+      "suffix": "GBP"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "suffix": "JPY"
+    },
+    "AUD": {
+      "suffix": "AUD"
+    },
+    "CAD": {
+      "suffix": "CA$"
+    },
+    "NZD": {
+      "suffix": "NZD"
+    },
+    "CHF": {
+      "suffix": "CHF"
+    },
+    "HKD": {
+      "suffix": "HKD"
+    },
+    "SGD": {
+      "suffix": "SGD"
+    },
+    "SEK": {
+      "suffix": "kr"
+    },
+    "DKK": {
+      "suffix": "Dkr"
+    },
+    "PLN": {
+      "suffix": "PLN"
+    },
+    "NOK": {
+      "suffix": "Nkr"
+    },
+    "HUF": {
+      "suffix": "HUF"
+    },
+    "CZK": {
+      "suffix": "CZK"
+    },
+    "ILS": {
+      "suffix": "₪"
+    },
+    "MXN": {
+      "suffix": "MX$"
+    },
+    "MYR": {
+      "suffix": "MYR"
+    },
+    "BRL": {
+      "suffix": "BR$"
+    },
+    "PHP": {
+      "suffix": "PHP"
+    },
+    "RUB": {
+      "suffix": "RUB"
+    },
+    "THB": {
+      "suffix": "THB"
+    },
+    "TRY": {
+      "suffix": "TRY"
+    },
+    "TWD": {
+      "suffix": "TWD"
+    }
+  },
+  "tr-TR": {
+    "number": {
+      "delimiter": ".",
+      "numeralDecimalMark": ",",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "¥"
+    },
+    "AUD": {
+      "prefix": "AU$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "prefix": "฿"
+    },
+    "TRY": {
+      "prefix": "₺"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  },
+  "zh-TW": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "¥"
+    },
+    "AUD": {
+      "prefix": "AU$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "$"
+    }
+  },
+  "zh-CN": {
+    "number": {
+      "delimiter": ",",
+      "numeralDecimalMark": ".",
+      "numeralDecimalScale": 4
+    },
+    "currency": {
+      "align": "left",
+      "numeralDecimalScale": 2,
+      "symbolDelimiter": ""
+    },
+    "USD": {
+      "prefix": "US$"
+    },
+    "EUR": {
+      "prefix": "€"
+    },
+    "GBP": {
+      "prefix": "£"
+    },
+    "JPY": {
+      "numeralDecimalScale": 0,
+      "prefix": "JP¥"
+    },
+    "AUD": {
+      "prefix": "AU$"
+    },
+    "CAD": {
+      "prefix": "CA$"
+    },
+    "NZD": {
+      "prefix": "NZ$"
+    },
+    "CHF": {
+      "symbolDelimiter": " ",
+      "prefix": "CHF"
+    },
+    "HKD": {
+      "prefix": "HK$"
+    },
+    "SGD": {
+      "symbolDelimiter": " ",
+      "prefix": "SGD"
+    },
+    "SEK": {
+      "symbolDelimiter": " ",
+      "prefix": "SEK"
+    },
+    "DKK": {
+      "symbolDelimiter": " ",
+      "prefix": "DKK"
+    },
+    "PLN": {
+      "symbolDelimiter": " ",
+      "prefix": "PLN"
+    },
+    "NOK": {
+      "symbolDelimiter": " ",
+      "prefix": "NOK"
+    },
+    "HUF": {
+      "symbolDelimiter": " ",
+      "prefix": "HUF"
+    },
+    "CZK": {
+      "symbolDelimiter": " ",
+      "prefix": "CZK"
+    },
+    "ILS": {
+      "prefix": "₪"
+    },
+    "MXN": {
+      "prefix": "MX$"
+    },
+    "MYR": {
+      "symbolDelimiter": " ",
+      "prefix": "MYR"
+    },
+    "BRL": {
+      "prefix": "R$"
+    },
+    "PHP": {
+      "symbolDelimiter": " ",
+      "prefix": "PHP"
+    },
+    "RUB": {
+      "symbolDelimiter": " ",
+      "prefix": "RUB"
+    },
+    "THB": {
+      "symbolDelimiter": " ",
+      "prefix": "THB"
+    },
+    "TRY": {
+      "symbolDelimiter": " ",
+      "prefix": "TRY"
+    },
+    "TWD": {
+      "prefix": "NT$"
+    }
+  }
+}

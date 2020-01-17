@@ -1,0 +1,142 @@
+{
+  "name": "@square/orbit",
+  "version": "0.1.0",
+  "description": "Square eCommerce's (formerly Weebly) Vue.js UI component library",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.config.dev.js --open",
+    "dev-build": "NODE_ENV=production webpack --config build/webpack.config.build.js --watch",
+    "analyze-build": "ANALYZE=true NODE_ENV=production webpack --config build/webpack.config.build.js",
+    "build": "NODE_ENV=production webpack --config build/webpack.config.build.js",
+    "build:clean": "rm $(build/release/outputFiles.js)",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint --format 'node_modules/eslint-formatter-friendly' --ext js,vue,md --cache src",
+    "lint:css": "stylelint './src/**/*.{css,vue}'",
+    "release": "np --git-base-url github.intern.weebly.net --github",
+    "version": "./build/release/version.sh",
+    "postpublish": "./build/release/postpublish.sh",
+    "pretest": "npx i-peers -a ci",
+    "test": "karma start ./testing/karma.config.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "NODE_ENV=pr_lint npm run lint"
+    }
+  },
+  "files": [
+    "utils",
+    "components",
+    "*.{css,css.map}"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "devEngines": {
+    "node": "^8.12.0",
+    "npm": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.intern.weebly.net:weebly/orbit.git"
+  },
+  "homepage": "http://orbit.weebly.net/",
+  "keywords": [
+    "orbit",
+    "vue",
+    "components"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.intern.weebly.net/weebly/orbit/issues"
+  },
+  "style": "index.css",
+  "dependencies": {
+    "cleave.js": "1.4.10",
+    "code-inject-loader": "github:hirokiosame/code-inject-loader",
+    "core-js-pure": "^3.0.1",
+    "intersection-observer": "^0.5.1",
+    "lodash": "^4.17.10",
+    "orbit-icons": "github:privatenumber/orbit-icons",
+    "popper.js": "^1.15.0",
+    "resize-observer-polyfill": "^1.5.0",
+    "stickybits": "^3.6.5",
+    "stickyfilljs": "^2.1.0",
+    "tinycolor2": "^1.4.1",
+    "tooltip.js": "^1.3.2",
+    "vue-pseudo-window": "^0.1.0",
+    "vue-slicksort": "^0.1.10",
+    "vue-subslot": "^1.2.1",
+    "semver": "^5.7.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.17.1",
+    "vue": "~2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@vue/test-utils": "^1.0.0-beta.24",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
+    "cache-loader": "^2.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-formatter-friendly": "^6.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-markdown": "github:hirokiosame/eslint-plugin-markdown",
+    "eslint-plugin-vue": "^5.2.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "htmlvue-loader": "^1.1.0",
+    "husky": "^1.2.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-safari-private-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.5",
+    "mdvue-loader": "github:hirokiosame/mdvue-loader",
+    "np": "github:hirokiosame/np#4.0.2-orbit",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss": "^7.0.5",
+    "postcss-browser-reporter": "^0.6.0",
+    "postcss-calc": "^7.0.1",
+    "postcss-color-function": "^4.1.0",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-input-range": "^4.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.4.0",
+    "postcss-reporter": "^6.0.0",
+    "style-loader": "^0.19.1",
+    "stylelint": "^10.0.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-no-unsupported-browser-features": "^3.0.2",
+    "stylelint-order": "^2.2.1",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "svgo": "^1.3.2",
+    "svgo-loader": "^2.1.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.6",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "~2.6.10",
+    "webpack": "^3.3.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
