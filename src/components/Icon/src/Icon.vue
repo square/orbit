@@ -21,10 +21,10 @@
 </template>
 
 <script>
+import * as Icons from '@square/orbit-icons'; // eslint-disable-line import/no-extraneous-dependencies
 import SmartLink from '@square/orbit/utils/SmartLink.vue';
 import { assert } from '@square/orbit/utils/debug';
 import kebabCase from 'lodash/kebabCase';
-import * as Icons from 'orbit-icons';
 import IconKey from './IconKey';
 
 const iconMap = Object.keys(Icons).reduce((agg, key) => {
