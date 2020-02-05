@@ -8,7 +8,7 @@ Orbit is a Vue.js UI Component Library built on a beautiful, cohesive design sys
 Orbit includes over 50 easy to use components and enables you to quickly construct clean and scalable applications.
 
 ## Documentation
-- [Orbit Style Guide](http://orbit.weebly.net) — Live examples and component docs
+- [Orbit Style Guide](http://orbit.weebly.net) — [Internal Devs Only] Live examples and component docs
 - [Contribution Guide](/.github/CONTRIBUTING.md) - Learn about Orbit component development, testing, and release steps
 
 ## Quick start
@@ -51,7 +51,7 @@ Import the following CSS file as an asset to your build. <strong>Do not</strong>
 Orbit supports [all evergreen browsers](/.browserslistrc).
 
 ## Changelog
-Every release and their changes are documented in [Releases](github.com/square/orbit/releases).
+Every release and their changes are documented in [Releases](https://github.com/square/orbit/releases).
 
 ## License
 ```
