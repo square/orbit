@@ -1,0 +1,27 @@
+# EditorConfig helps developers define and maintain consistent coding styles
+# between different editors and IDEs.
+# editorconfig.org
+
+# Sublime Text
+# Install the EditorConfig plugin.
+# 1. Cmd + Shift + P
+# 2. Package Control: Install Package
+# 3. EditorConfig
+
+# Atom
+# Install the editorconfig plugin.
+# 1. Settings -> Install -> Search for 'editorconfig'
+
+root = true
+
+[*]
+indent_style = tab
+# indent_size = 2
+
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{diff,md}]
+trim_trailing_whitespace = false

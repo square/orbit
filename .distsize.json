@@ -1,0 +1,254 @@
+{
+  "hash": "ec02a6b0bc6954b172b8",
+  "totalSize": {"raw":[777814,"759.58 KB"],"gzip":[243876,"238.16 KB"]},
+  "assets": [
+    {
+      "name": "components/Accordion.js",
+      "size": {"raw":[8841,"8.63 KB"],"gzip":[3097,"3.02 KB"]}
+    },
+    {
+      "name": "components/Alert.js",
+      "size": {"raw":[3947,"3.85 KB"],"gzip":[1587,"1.55 KB"]}
+    },
+    {
+      "name": "components/Autocomplete.js",
+      "size": {"raw":[26668,"26.04 KB"],"gzip":[7781,"7.6 KB"]}
+    },
+    {
+      "name": "components/Blade.js",
+      "size": {"raw":[9095,"8.88 KB"],"gzip":[2842,"2.78 KB"]}
+    },
+    {
+      "name": "components/Breadcrumb.js",
+      "size": {"raw":[5261,"5.14 KB"],"gzip":[2004,"1.96 KB"]}
+    },
+    {
+      "name": "components/Button.js",
+      "size": {"raw":[23091,"22.55 KB"],"gzip":[7208,"7.04 KB"]}
+    },
+    {
+      "name": "components/ButtonGroup.js",
+      "size": {"raw":[8513,"8.31 KB"],"gzip":[2781,"2.72 KB"]}
+    },
+    {
+      "name": "components/Card.js",
+      "size": {"raw":[10256,"10.02 KB"],"gzip":[3403,"3.32 KB"]}
+    },
+    {
+      "name": "components/Checkbox.js",
+      "size": {"raw":[6269,"6.12 KB"],"gzip":[2394,"2.34 KB"]}
+    },
+    {
+      "name": "components/Checklist.js",
+      "size": {"raw":[5106,"4.99 KB"],"gzip":[1850,"1.81 KB"]}
+    },
+    {
+      "name": "components/Colorpicker.js",
+      "size": {"raw":[27938,"27.28 KB"],"gzip":[8732,"8.53 KB"]}
+    },
+    {
+      "name": "components/Datepicker.js",
+      "size": {"raw":[21519,"21.01 KB"],"gzip":[6952,"6.79 KB"]}
+    },
+    {
+      "name": "components/DescriptionList.js",
+      "size": {"raw":[4561,"4.45 KB"],"gzip":[1579,"1.54 KB"]}
+    },
+    {
+      "name": "components/Divider.js",
+      "size": {"raw":[3075,"3 KB"],"gzip":[1314,"1.28 KB"]}
+    },
+    {
+      "name": "components/Drag.js",
+      "size": {"raw":[22638,"22.11 KB"],"gzip":[7318,"7.15 KB"]}
+    },
+    {
+      "name": "components/Form.js",
+      "size": {"raw":[8150,"7.96 KB"],"gzip":[2657,"2.59 KB"]}
+    },
+    {
+      "name": "components/Grid.js",
+      "size": {"raw":[7345,"7.17 KB"],"gzip":[2450,"2.39 KB"]}
+    },
+    {
+      "name": "components/Heading.js",
+      "size": {"raw":[3269,"3.19 KB"],"gzip":[1358,"1.33 KB"]}
+    },
+    {
+      "name": "components/Hovertip.js",
+      "size": {"raw":[9506,"9.28 KB"],"gzip":[3317,"3.24 KB"]}
+    },
+    {
+      "name": "components/Icon.js",
+      "size": {"raw":[59665,"58.27 KB"],"gzip":[20876,"20.39 KB"]}
+    },
+    {
+      "name": "components/Input.js",
+      "size": {"raw":[6477,"6.33 KB"],"gzip":[2450,"2.39 KB"]}
+    },
+    {
+      "name": "components/Layer.js",
+      "size": {"raw":[9126,"8.91 KB"],"gzip":[3211,"3.14 KB"]}
+    },
+    {
+      "name": "components/Layout.js",
+      "size": {"raw":[30053,"29.35 KB"],"gzip":[8998,"8.79 KB"]}
+    },
+    {
+      "name": "components/Loading.js",
+      "size": {"raw":[3182,"3.11 KB"],"gzip":[1363,"1.33 KB"]}
+    },
+    {
+      "name": "components/Modal.js",
+      "size": {"raw":[15370,"15.01 KB"],"gzip":[5549,"5.42 KB"]}
+    },
+    {
+      "name": "components/Nav.js",
+      "size": {"raw":[9182,"8.97 KB"],"gzip":[3004,"2.93 KB"]}
+    },
+    {
+      "name": "components/NestedDrag.js",
+      "size": {"raw":[36247,"35.4 KB"],"gzip":[10670,"10.42 KB"]}
+    },
+    {
+      "name": "components/Notice.js",
+      "size": {"raw":[4242,"4.14 KB"],"gzip":[1746,"1.71 KB"]}
+    },
+    {
+      "name": "components/NumberFormat.js",
+      "size": {"raw":[42136,"41.15 KB"],"gzip":[9065,"8.85 KB"]}
+    },
+    {
+      "name": "components/Pagination.js",
+      "size": {"raw":[5190,"5.07 KB"],"gzip":[1938,"1.89 KB"]}
+    },
+    {
+      "name": "components/Password.js",
+      "size": {"raw":[3551,"3.47 KB"],"gzip":[1517,"1.48 KB"]}
+    },
+    {
+      "name": "components/Popover.js",
+      "size": {"raw":[18254,"17.83 KB"],"gzip":[5957,"5.82 KB"]}
+    },
+    {
+      "name": "components/ProgressBar.js",
+      "size": {"raw":[3097,"3.02 KB"],"gzip":[1321,"1.29 KB"]}
+    },
+    {
+      "name": "components/Radio.js",
+      "size": {"raw":[6715,"6.56 KB"],"gzip":[2310,"2.26 KB"]}
+    },
+    {
+      "name": "components/RadioGroup.js",
+      "size": {"raw":[1237,"1.21 KB"],"gzip":[576,"576 B"]}
+    },
+    {
+      "name": "components/Schooltip.js",
+      "size": {"raw":[10466,"10.22 KB"],"gzip":[3602,"3.52 KB"]}
+    },
+    {
+      "name": "components/Search.js",
+      "size": {"raw":[4795,"4.68 KB"],"gzip":[1796,"1.75 KB"]}
+    },
+    {
+      "name": "components/Section.js",
+      "size": {"raw":[25265,"24.67 KB"],"gzip":[8080,"7.89 KB"]}
+    },
+    {
+      "name": "components/Select.js",
+      "size": {"raw":[5887,"5.75 KB"],"gzip":[2244,"2.19 KB"]}
+    },
+    {
+      "name": "components/Sheet.js",
+      "size": {"raw":[5704,"5.57 KB"],"gzip":[2204,"2.15 KB"]}
+    },
+    {
+      "name": "components/Skeleton.js",
+      "size": {"raw":[5293,"5.17 KB"],"gzip":[1851,"1.81 KB"]}
+    },
+    {
+      "name": "components/Slider.js",
+      "size": {"raw":[4578,"4.47 KB"],"gzip":[1916,"1.87 KB"]}
+    },
+    {
+      "name": "components/Steps.js",
+      "size": {"raw":[10107,"9.87 KB"],"gzip":[3266,"3.19 KB"]}
+    },
+    {
+      "name": "components/Table.js",
+      "size": {"raw":[14482,"14.14 KB"],"gzip":[4565,"4.46 KB"]}
+    },
+    {
+      "name": "components/Tabs.js",
+      "size": {"raw":[12184,"11.9 KB"],"gzip":[4390,"4.29 KB"]}
+    },
+    {
+      "name": "components/Tag.js",
+      "size": {"raw":[2898,"2.83 KB"],"gzip":[1239,"1.21 KB"]}
+    },
+    {
+      "name": "components/Textarea.js",
+      "size": {"raw":[3559,"3.48 KB"],"gzip":[1507,"1.47 KB"]}
+    },
+    {
+      "name": "components/Tile.js",
+      "size": {"raw":[5958,"5.82 KB"],"gzip":[2388,"2.33 KB"]}
+    },
+    {
+      "name": "components/Tiles.js",
+      "size": {"raw":[5564,"5.43 KB"],"gzip":[2253,"2.2 KB"]}
+    },
+    {
+      "name": "components/Toast.js",
+      "size": {"raw":[9328,"9.11 KB"],"gzip":[3043,"2.97 KB"]}
+    },
+    {
+      "name": "components/Toggle.js",
+      "size": {"raw":[4499,"4.39 KB"],"gzip":[1818,"1.78 KB"]}
+    },
+    {
+      "name": "components/Upload.js",
+      "size": {"raw":[29001,"28.32 KB"],"gzip":[9191,"8.98 KB"]}
+    },
+    {
+      "name": "components/ZeroState.js",
+      "size": {"raw":[5955,"5.82 KB"],"gzip":[1997,"1.95 KB"]}
+    },
+    {
+      "name": "styles.css",
+      "size": {"raw":[85615,"83.61 KB"],"gzip":[14994,"14.64 KB"]}
+    },
+    {
+      "name": "utils/debug.js",
+      "size": {"raw":[1327,"1.3 KB"],"gzip":[640,"640 B"]}
+    },
+    {
+      "name": "utils/dev-mode.js",
+      "size": {"raw":[17022,"16.62 KB"],"gzip":[5198,"5.08 KB"]}
+    },
+    {
+      "name": "utils/NoClickFocus.js",
+      "size": {"raw":[2793,"2.73 KB"],"gzip":[1253,"1.22 KB"]}
+    },
+    {
+      "name": "utils/popper.js",
+      "size": {"raw":[22605,"22.08 KB"],"gzip":[7766,"7.58 KB"]}
+    },
+    {
+      "name": "utils/SmartLink.js",
+      "size": {"raw":[3002,"2.93 KB"],"gzip":[1365,"1.33 KB"]}
+    },
+    {
+      "name": "utils/Spacer.js",
+      "size": {"raw":[2686,"2.62 KB"],"gzip":[1202,"1.17 KB"]}
+    },
+    {
+      "name": "utils/v-node-filter.js",
+      "size": {"raw":[1696,"1.66 KB"],"gzip":[815,"815 B"]}
+    },
+    {
+      "name": "vars.css",
+      "size": {"raw":[6773,"6.61 KB"],"gzip":[2118,"2.07 KB"]}
+    }
+  ]
+}

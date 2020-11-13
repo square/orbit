@@ -1,0 +1,59 @@
+:root {
+	--heading-color: var(--color-gray-60);
+
+	/* Heading Display 1
+	-------------------------- */
+	--heading-d1-size: 44px;
+	--heading-d1-line-height: 52px;
+	--heading-d1-mobile-size: 44px;
+	--heading-d1-mobile-line-height: 48px;
+
+	/* Heading Display 2
+	-------------------------- */
+	--heading-d2-size: 36px;
+	--heading-d2-line-height: 48px;
+	--heading-d2-mobile-size: 36px;
+	--heading-d2-mobile-line-height: 40px;
+
+	/* Heading Display 3
+	-------------------------- */
+	--heading-d3-size: 30px;
+	--heading-d3-line-height: 40px;
+	--heading-d3-mobile-size: 30px;
+	--heading-d3-mobile-line-height: 32px;
+
+	/* Heading Title 1
+	-------------------------- */
+	--heading-t1-size: 22px;
+	--heading-t1-line-height: 32px;
+	--heading-t1-mobile-size: 22px;
+	--heading-t1-mobile-line-height: 32px;
+
+	/* Heading Title 2
+	-------------------------- */
+	--heading-t2-size: 18px;
+	--heading-t2-line-height: 24px;
+	--heading-t2-mobile-size: 18px;
+	--heading-t2-mobile-line-height: 24px;
+
+	/* Heading Title 3
+	-------------------------- */
+	--heading-t3-size: 16px;
+	--heading-t3-line-height: 24px;
+	--heading-t3-mobile-size: 16px;
+	--heading-t3-mobile-line-height: 24px;
+
+	/* Heading Title 4
+	-------------------------- */
+	--heading-t4-size: 14px;
+	--heading-t4-line-height: 24px;
+	--heading-t4-mobile-size: 14px;
+	--heading-t4-mobile-line-height: 24px;
+
+	/* Heading Title 5
+	-------------------------- */
+	--heading-t5-size: 12px;
+	--heading-t5-line-height: 20px;
+	--heading-t5-mobile-size: 12px;
+	--heading-t5-mobile-line-height: 12px;
+}
