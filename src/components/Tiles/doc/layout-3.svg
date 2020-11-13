@@ -1,0 +1,50 @@
+
+<svg width="148px" height="88px" viewBox="0 0 148 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="71.9750087" height="72.5373134"></rect>
+    </defs>
+    <g id="Subscription" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wireframe-/-Subscription-/-3">
+            <g id="Group-6">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="148" height="88"></rect>
+                <g id="Group" transform="translate(86.000000, 27.000000)">
+                    <g id="Group-2">
+                        <g id="Group-5">
+                            <g id="Group-9">
+                                <g id="Group-4" transform="translate(8.000000, 0.000000)" fill="#9BAFC5">
+                                    <g id="Group-7">
+                                        <rect id="Rectangle-6" x="0" y="0" width="40" height="8" rx="1.6"></rect>
+                                        <rect id="Rectangle-6-Copy" x="4" y="10" width="32" height="4" rx="1.6"></rect>
+                                        <rect id="Rectangle-6-Copy-2" x="6" y="15" width="28" height="4" rx="1.6"></rect>
+                                    </g>
+                                </g>
+                                <g id="Group-3" transform="translate(0.000000, 27.000000)">
+                                    <g id="Group-8">
+                                        <g id="Group-10">
+                                            <rect id="Rectangle-6-Copy-3" fill="#0073FF" x="35" y="0" width="20" height="8" rx="1.6"></rect>
+                                            <rect id="Rectangle-6-Copy-4" stroke="#9BAFC5" stroke-width="0.5" x="0.25" y="0.25" width="31.5" height="7.5" rx="1.6"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Image-/-4:3" transform="translate(8.000000, 8.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F4F8FA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="Group-9" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+                        <g transform="translate(23.074488, 26.811940)">
+                            <rect id="Rectangle-6" fill="#F4F8FA" x="0" y="0" width="25.9929118" height="18.9129623" rx="0.680181633"></rect>
+                            <path d="M2.17127553,15.4517666 L7.43331341,7.3398669 C8.04661776,6.39440366 9.31024857,6.12513568 10.2557118,6.73844003 C10.486195,6.88795021 10.6841141,7.08246277 10.8376029,7.31031581 L14.3194818,12.479141 L16.7594886,10.3297195 C17.6051332,9.58478444 18.8945527,9.66642562 19.6394878,10.5120702 C19.6618806,10.5374903 19.6836369,10.5634641 19.7047364,10.5899674 L23.575258,15.4517666 L2.17127553,15.4517666 Z M17.2119119,7.72294011 C15.9339559,7.72294011 14.8979678,6.65822827 14.8979678,5.34483965 C14.8979678,4.03145103 15.9339559,2.96673919 17.2119119,2.96673919 C18.4898679,2.96673919 19.5258559,4.03145103 19.5258559,5.34483965 C19.5258559,6.65822827 18.4898679,7.72294011 17.2119119,7.72294011 Z" id="Path-2" fill="#BDCCDC"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- note: copied arrow-down.svg and manually changed width & height attributes from 16px to 10px -->
+<svg width="10px" height="10px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-down-small</title>
+    <defs></defs>
+    <g id="Styles-/-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="System-Icons" transform="translate(-256.000000, -171.000000)"></g>
+        <g id="arrow-down" fill-rule="nonzero" fill="#323b43">
+            <polygon id="Mask" points="2.70710678 4.29289322 1.29289322 5.70710678 8 12.4142136 14.7071068 5.70710678 13.2928932 4.29289322 8 9.58578644"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+@import "@square/orbit/styles/vars.css";
+
+:root {
+	--modal-padding-horizontal-mobile: var(--space-x2);
+	--modal-padding-horizontal: var(--space-x4);
+	--modal-close-btn-width: 40px;
+}

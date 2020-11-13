@@ -1,0 +1,9 @@
+@import "@square/orbit/styles/vars.css";
+
+:root {
+	--card-shadow-color: #1b2126;
+	--card-padding: var(--space-x3);
+	--card-box-shadow:
+		0 0 2px 0 color(var(--card-shadow-color) a(0.16)),
+		0 2px 2px 0 color(var(--card-shadow-color) a(0.32));
+}

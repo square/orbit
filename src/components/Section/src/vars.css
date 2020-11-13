@@ -1,0 +1,5 @@
+:root {
+	--section-padding-size: var(--space-x3);
+	--section-padding-x: var(--space-x4);
+	--section-padding-y: var(--space-x3);
+}

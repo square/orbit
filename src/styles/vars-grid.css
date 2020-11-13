@@ -1,0 +1,4 @@
+:root {
+	--grid-gutter: var(--space-x2);
+	--grid-gutter-small: var(--space);
+}
