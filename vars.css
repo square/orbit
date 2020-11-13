@@ -1,0 +1,212 @@
+/*
+This file is duplicated during the build.
+These are our global variables available for developers
+to use on their projects.
+*/
+
+:root {
+	/* Space
+	-------------------------- */
+	--space: 8px;
+	--space-half: calc(var(--space) / 2);	/* 4px */
+	--space-x2: calc(var(--space) * 2);	/* 16px */
+	--space-x3: calc(var(--space) * 3);	/* 24px */
+	--space-x4: calc(var(--space) * 4);	/* 32px */
+	--space-x5: calc(var(--space) * 5);	/* 40px */
+	--space-x6: calc(var(--space) * 6);	/* 48px */
+	--space-x7: calc(var(--space) * 7);	/* 56px */
+	--space-x8: calc(var(--space) * 8);	/* 64px */
+	--space-x16: calc(var(--space) * 16); /* 128px */
+
+	/* Transition
+	-------------------------- */
+	--transition-time: 0.2s;
+	--transition-easing: ease;
+	--transition-base: var(--transition-time) var(--transition-easing);
+
+	/* Neutral palette
+	-------------------------- */
+	--color-white: #fff;
+	--color-gray-10: #f5f6f7;
+	--color-gray-20: #ebedef;
+	--color-gray-30: #d5d9dc;
+	--color-gray-40: #adb1b5;
+	--color-gray-50: #70767c;
+	--color-gray-60: #323b43;
+	--color-black-70: #313131;
+	--color-black-80: #212121;
+	--color-black-90: #060606;
+	--color-black-100: #000;
+	--color-black: #000;
+
+	/* Extended palette
+	--------------------------
+	The extended palette colors are used for marketing elements in app and public web.
+	For system and interaction colors, use the Contextual Color palette instead.
+	*/
+	--color-ocean-20: #49a4d5;
+	--color-ocean-30: #49a4d5;
+	--color-ocean-40: #037bb4;
+	--color-ocean-45: #026da1;
+	--color-indigo-20: #6b8fef;
+	--color-indigo-30: #5174d1;
+	--color-indigo-40: #3253af;
+	--color-indigo-45: #29469c;
+	--color-purple-20: #ac79f2;
+	--color-purple-30: #724fa1;
+	--color-purple-40: #493584;
+	--color-purple-45: #3e2a77;
+	--color-plum-20: #e269dc;
+	--color-plum-30: #965098;
+	--color-plum-40: #772d88;
+	--color-plum-45: #642173;
+	--color-rose-20: #ec5f88;
+	--color-rose-30: #c14f70;
+	--color-rose-40: #993157;
+	--color-rose-45: #85274a;
+	--color-orange-20: #f86932;
+	--color-orange-30: #f86932;
+	--color-orange-40: #dd4901;
+	--color-orange-45: #c93d03;
+	--color-lime-20: #77ba1b;
+	--color-lime-30: #77ba1b;
+	--color-lime-40: #599801;
+	--color-lime-45: #4d8401;
+	--color-green-20: #0ab635;
+	--color-green-30: #0ab635;
+	--color-green-40: #008d31;
+	--color-green-45: #03792c;
+	--color-teal-20: #01c1ae;
+	--color-teal-30: #01c1ae;
+	--color-teal-40: #059990;
+	--color-teal-45: #02847d;
+
+	/* Contextual Colors
+	-------------------------- */
+	--brand-color: #3374ff;
+	--brand-color-dark: #144dc7;
+	--focus-color: #709eff; /* brand color @ 30% tint */
+	--focus-color-light: rgba(112, 158, 255, 0.3); /* focus color @ 30% alpha */
+	--info-color: var(--font-color-base);
+	--info-bg-color: var(--color-gray-20);
+	--success-color: #24b324;
+	--success-bg-color: #b4f4bd;
+	--warning-color: #ffb519;
+	--warning-bg-color: #fff2c7;
+	--danger-color: #d92b2b;
+	--danger-color-light: rgba(217, 43, 43, 0.3); /* danger-color @ 30% alpha */
+	--danger-bg-color: #ffcacb;
+	--upgrade-color: #ff7734;
+	--upgrade-color-light: rgba(255, 119, 52, 0.2); /* upgrade color @ 20% alpha */
+	--upgrade-bg-color: #feddcc;
+
+	/*
+		STATES
+		--------
+		Naming convention for states:
+		[state]-[property]
+		Current States: Hover, Active, Disabled, Focus, Error, Selected
+	 */
+
+	--hover-bg-color: var(--color-gray-10);
+	--active-bg-color: var(--color-gray-20);
+	--disabled-color: var(--color-gray-50);
+	--disabled-bg-color: var(--color-gray-10);
+	--disabled-border-color: var(--color-gray-20);
+	--disabled-border: 1px solid var(--disabled-border-color);
+	--upgrade-hover-color: #f26b1e;
+	--upgrade-active-color: #e65f0a;
+
+	/*
+		SELECTED
+		--------
+		Buttons and Tiles have selected states denoted by 2px blue outline.
+		Does component have a border?
+			YES: Update border-color to selected-border-color. Add selected-box-shadow.
+			NO: Add selected-box-shadow-double.
+	*/
+	--selected-color: var(--brand-color);
+	--selected-border-color: var(--selected-color);
+	--selected-box-shadow: inset 0 0 0 1px var(--selected-color);
+	--selected-box-shadow-double: inset 0 0 0 2px var(--selected-color);
+
+	/*
+		ERROR
+		-----
+		Input, Textarea, and other form inputs have an error state denoted by a 2px red outline.
+		Does component have a border?
+			YES: Update border-color to error-border-color. Add error-box-shadow.
+			NO: Add error-box-shadow-double.
+	*/
+	--danger-border-color: var(--danger-color);
+	--danger-box-shadow: inset 0 0 0 1px var(--danger-color);
+	--danger-box-shadow-double: inset 0 0 0 2px var(--danger-color);
+
+	/*
+		FOCUS
+		-----
+		All interactive controls have a focus state denoted by a 1px blue border and a 3px blue glow.
+		(Not always blue, but usually.)
+		1. First add focus-box-shadow.
+		2. Does the component have a border?
+			YES: Update the border-color with focus-border-color;
+			NO:  Add an additional box-shadow with focus-box-shadow-inset.
+		3. If the control has an error state, replace focus-box-shadow with danger-focus-box-shadow
+			in that scenario.
+	*/
+	--focus-border-color: var(--focus-color);
+	--focus-box-shadow: 0 0 0 3px var(--focus-color-light);
+	--focus-box-shadow-inset: inset 0 0 0 1px var(--focus-color);
+
+	/* Controls with bg fills have matching focus glows. ex. danger buttons have red glows. */
+	--danger-focus-border-color: var(--danger-color);
+	--danger-focus-box-shadow: 0 0 0 3px var(--danger-color-light);
+	--danger-focus-box-shadow-inset: inset 0 0 0 1px var(--danger-color);
+	--upgrade-focus-border-color: #ffa071;
+	--upgrade-focus-box-shadow: 0 0 0 3px var(--upgrade-color-light);
+
+	/* Borders
+	-------------------------- */
+	--border-radius-base: 4px;
+	--divider-border-color: var(--color-gray-30);
+	--divider-border: 1px solid var(--divider-border-color);
+
+	/* Box Shadows
+	-------------------------- */
+
+	/* For Fixed Headers */
+	--box-shadow-static:
+		0 0 2px 0 rgba(0, 0, 0, 0.1),
+		0 2px 2px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+	/* For Popovers */
+	--box-shadow-interactive:
+		0 4px 8px 0 rgba(0, 0, 0, 0.1),
+		0 1px 16px 0 rgba(0, 0, 0, 0.1),
+		0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+	/* For Blades & Modals */
+	--box-shadow-foreground:
+		0 16px 24px 2px rgba(0, 0, 0, 0.1),
+		0 8px 32px 4px rgba(0, 0, 0, 0.1),
+		0 8px 8px 0 rgba(0, 0, 0, 0.1);
+
+	/* Font
+	-------------------------- */
+	--font-family-base: "SQ Market", "Square Market", system-ui;
+	--font-size-base: 14px;
+	--font-size-mobile: 16px;
+	--font-color-base: var(--color-gray-60);
+	--line-height-base: 1.5;
+	--line-height-control: 24px;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+}
+
+/* Breakpoints
+-------------------------- */
+@custom-media --for-tablet-portrait-up (min-width: 600px);
+@custom-media --for-tablet-landscape-up (min-width: 992px);
+@custom-media --for-desktop-up (min-width: 1200px);
+@custom-media --for-big-desktop-up (min-width: 1440px);
